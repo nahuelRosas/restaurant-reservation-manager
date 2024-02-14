@@ -1,0 +1,3 @@
+{
+  "extends": "@restaurant-reservation-manager/typescript-config/base.json"
+}

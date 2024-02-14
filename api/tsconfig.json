@@ -1,0 +1,31 @@
+{
+  "extends": "@restaurant-reservation-manager/typescript-config/nestjs.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/infrastructure/*": [
+        "./src/infrastructure/*"
+      ],
+      "@/domain/*": [
+        "./src/domain/*"
+      ],
+      "@/usecases/*": [
+        "./src/usecases/*"
+      ],
+      "@/config/*": [
+        "./src/infrastructure/config/environment/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./tsconfig.json"
+  ],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "extends": "@restaurant-reservation-manager/eslint-config/next.js"
+}
