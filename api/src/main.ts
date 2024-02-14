@@ -54,7 +54,7 @@ async function bootstrap(): Promise<void> {
       secret: SECRET_KEY_SESSION,
       resave: false,
       saveUninitialized: false,
-      cookie: { secure: false, maxAge: 60000000 },
+      cookie: { secure: true, maxAge: 60000000 },
     }),
   ); // Enable session management
   app.use(passport.initialize()); // Enable passport authentication
